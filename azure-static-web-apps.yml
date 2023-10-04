@@ -1,0 +1,13 @@
+# azure-static-web-apps.yml
+
+# Define your build and publish settings here
+app_location: "/" # The location of your app's build output
+api_location: "api" # The location of your API code
+output_location: "build" # The location where the app should be published
+
+# Define your routes and their rewrite rules here
+routes:
+  - route: /{**any}
+    rewrite: /index.html # Rewrite rule for handling client-side routing
+
+# Define your environment variables here (if needed)
