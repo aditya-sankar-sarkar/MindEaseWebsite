@@ -2,7 +2,7 @@
 
 # Define your build and publish settings here
 app_location: "/" # The location of your app's build output
-api_location: "api" # The location of your API code
+# api_location: "api" # The location of your API code
 output_location: "build" # The location where the app should be published
 
 # Define your routes and their rewrite rules here
